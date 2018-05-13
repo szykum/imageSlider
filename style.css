@@ -1,0 +1,41 @@
+.mainContent{
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.slider {
+  width: 50%;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+  margin-left: 25%;
+}
+
+.insideSlider{
+  width: 400%;
+  height: 100%;
+  position: relative;
+  left: -100%;
+}
+
+.item {
+  width: calc(100%/4);
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  float: left;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  display: inline;
+  margin-left: 30%;
+}
